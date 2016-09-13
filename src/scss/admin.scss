@@ -1,0 +1,52 @@
+*[ng-cloak] {
+  display: none;
+}
+
+.xycse {
+  &-wrap {
+
+  }
+
+  &-message{
+
+  }
+
+  &-span{
+    display: block;
+  }
+
+  &-list{
+    &-wrapper{
+      background: #fff;
+      padding: 10px;
+      margin: 10px 0;
+    }
+  }
+  &-item{
+    margin: 0;
+    padding: 10px 60px 10px 10px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    &:first-child{
+      border-top: 1px solid #ddd;
+    }
+    &-title{
+      font-size: 16px;
+      color: #444;
+      display: block;
+      margin-bottom: 10px;
+      strong{
+        font-size: 20px;
+        color: #000;
+      }
+    }
+    button{
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer;
+    }
+  }
+
+}

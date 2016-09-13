@@ -1,0 +1,20 @@
+{
+    "name": "hametuha/xycse",
+    "description": "Next generation relation manager.",
+    "license": "GPL2.0 or later.",
+    "authors": [
+        {
+            "name": "Hametuha INC.",
+            "email": "info@hametuha.co.jp"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-0": {
+            "Hametuha\\XYCSE": "app/"
+        }
+    }
+}

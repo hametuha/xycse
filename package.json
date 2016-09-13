@@ -1,0 +1,44 @@
+{
+  "name": "xycse",
+  "version": "1.0.0",
+  "description": "Description: Next generation relation manager.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp build",
+    "watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hametuha/xycse.git"
+  },
+  "keywords": [
+    "wordpress",
+    "term",
+    "taxonomy"
+  ],
+  "author": "Hametuha INC. <info@hametuha.co.jp>",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/hametuha/xycse/issues"
+  },
+  "homepage": "https://github.com/hametuha/xycse#readme",
+  "devDependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-sortable": "^0.14.3",
+    "event-stream": "^3.3.4",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-filter": "^2.0.2",
+    "gulp-include": "^2.3.1",
+    "gulp-jshint": "^1.10.0",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-sass": "^2.0.0",
+    "gulp-sourcemaps": "^1.5.1",
+    "gulp-uglify": "^2.0.0",
+    "jshint-stylish": "^1.0.1",
+    "node-sass": "^2.1.1"
+  }
+}
